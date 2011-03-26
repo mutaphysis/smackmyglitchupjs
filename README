@@ -1,0 +1,5 @@
+A reproduction of http://blog.soulwire.co.uk/laboratory/flash/as3-bitmapdata-glitch-generator in js
+
+Includes byte/base64 code from http://www.nczonline.net/blog/2009/12/08/computer-science-in-javascript-base64-encoding/
+
+Takes a jpeg as input, converts the file into a dataUri, this into an byteArray, modifies jpeg data and turns this into a dataUri again.
